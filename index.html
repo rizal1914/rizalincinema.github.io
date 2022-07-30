@@ -1,1 +1,55 @@
-https://www.youtube.com/watch?v=xjtXSZb7N7c
+<html>
+<head>
+<script>
+function clickCounter() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.clickcount) {
+      localStorage.clickcount = Number(localStorage.clickcount)+1;
+    } else {
+      localStorage.clickcount = 1;
+    }
+    document.getElementById("Angono").innerHTML = "">Angono</a>" + localStorage.clickcount + " time(s).";
+  } else {
+   
+  }
+}
+</script>
+</head>
+<body>
+
+<p><button onclick="clickCounter()" type="button">Angono</button></p>
+
+<div id="Angono"></div>
+
+
+
+</body>
+</html>
+<html>
+<head>
+<script>
+function clickCounter() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.clickcount) {
+      localStorage.clickcount = Number(localStorage.clickcount)+1;
+    } else {
+      localStorage.clickcount = 1;
+    }
+    document.getElementById("Antipolo").innerHTML = "" + localStorage.clickcount + " time(s).";
+  } else {
+   
+  }
+}
+</script>
+</head>
+<body>
+
+<p><button onclick="clickCounter()" type="button">Antipolo</button></p>
+
+<div id="Antipolo"></div>
+
+
+
+</body>
+</html>
+<button onclick="window.location.href='https://www.facebook.com/'">Facebook</button>
